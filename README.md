@@ -15,3 +15,16 @@
 *Maybe might still do:*
 - make compression generic for f64 and f32
 - idk if this will actually ever become a crate (small rewrite probably not a bad idea in that case lol)
+
+
+## Benchmark Results
+
+Evaluated across the included datasets (city_temperature.csv, Stocks-Germany-sample.txt, SSD_HDD_benchmarks.csv) with 25 runs per dataset:
+
+| Codec | Compression Ratio | Encoding Latency (per 1000 vals) | Decoding Latency (per 1000 vals) |
+| :--- | :--- | :--- | :--- |
+| fastalp | 16.34 bits/val | 2.255 µs | 423 ns |
+| Chimp128 | 17.29 bits/val | 7.468 µs | 7.637 µs |
+| Patas | 21.51 bits/val | 6.818 µs | 6.502 µs |
+| Chimp | 41.08 bits/val | 8.631 µs | 9.270 µs |
+| Gorilla | 52.70 bits/val | 6.042 µs | 5.920 µs |
