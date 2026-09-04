@@ -23,8 +23,8 @@ Evaluated across the included datasets (city_temperature.csv, Stocks-Germany-sam
 
 | Codec | Compression Ratio | Encoding Latency (µs / 1000 vals) | Decoding Latency (µs / 1000 vals) |
 | :--- | :--- | :--- | :--- |
-| fastalp | 16.34 bits/val | 2.255 µs | 0.423 µs |
-| Gorilla | 52.70 bits/val | 6.042 µs | 5.920 µs |
-| Patas | 21.51 bits/val | 6.818 µs | 6.502 µs |
-| Chimp128 | 17.29 bits/val | 7.468 µs | 7.637 µs |
-| Chimp | 41.08 bits/val | 8.631 µs | 9.270 µs |
+| fastalp | 14.63 bits/val | 5.164 µs | 1.002 µs |
+| Gorilla | 52.70 bits/val | 6.144 µs | 6.047 µs |
+| Patas | 21.51 bits/val | 6.952 µs | 6.740 µs |
+| Chimp128 | 17.29 bits/val | 7.609 µs | 7.534 µs |
+| Chimp | 41.08 bits/val | 8.846 µs | 9.585 µs |
