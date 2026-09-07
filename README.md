@@ -19,7 +19,7 @@
 
 ## Benchmark Results
 
-Evaluated across the included datasets (city_temperature.csv, Stocks-Germany-sample.txt, SSD_HDD_benchmarks.csv) with 25 runs per dataset:
+Evaluated on an Apple M2 Max machine across the included datasets (city_temperature.csv, Stocks-Germany-sample.txt, SSD_HDD_benchmarks.csv) with 25 runs per dataset:
 
 | Codec | Compression Ratio | Encoding Latency (µs / 1000 vals) | Decoding Latency (µs / 1000 vals) |
 | :--- | :--- | :--- | :--- |
